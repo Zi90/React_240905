@@ -9,6 +9,7 @@ import Param1 from "./components/Param1";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
 import Param2 from "./components/Param2";
+import Param3 from "./components/Param3";
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
           <Route path = '/comp3' element={<Comp3 />} />
           <Route path = '/param/:id/:name' element={<Param1 />} />
           <Route path="/param" element={<Param2 />} />
-          {/* <Route path="/param3" element={<Param3 />} /> */}
+          <Route path="/param3/:id/:pw" element={<Param3 />} />
         </Routes>
       <Footer />
       </BrowserRouter>
