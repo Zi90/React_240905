@@ -4,6 +4,7 @@ import Counter from './Counter';
 import Input from './Input';
 import Color from './Color';
 import Input2 from './Input2';
+import Counter2 from './Counter2';
 
 const comp2 = () => {
 
@@ -14,6 +15,8 @@ const comp2 = () => {
     return (
         <div className='comp2 comp'>
            <div>comp2 영역입니다.</div>
+           <Counter2/>
+           <hr />
            <Counter />
            <hr />
            <Input />
